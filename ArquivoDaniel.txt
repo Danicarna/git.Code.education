@@ -1,3 +1,4 @@
 !Oi... 
-Esta é uma prova do editos VIM
+Esta e uma prova do editor VIM
+Fazendo as correcoes.
 Ate.!
