@@ -1,5 +1,0 @@
-!Oi... 
-Esta e uma prova do editor VIM
-Fazendo as correcoes.
-Inserindo outra linha.
-Ate.!
