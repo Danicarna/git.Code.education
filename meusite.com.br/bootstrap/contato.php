@@ -2,6 +2,32 @@
    <ul>
        <h2>CONTATO</h2>
 
+
+       <div class="row">
+           <div class="col-xs-12">
+               <form action="confirma.php" method="post" target="_self">
+                   <div class="form-group">
+                       <label for="nome">Nome:
+                       <input type="text" name="nome" class="form-control"></label>
+                   </div>
+                   <div class="form-group">
+                       <label for="email">Email:
+                       <input type="email" name="e-mail" class="form-control"></label>
+                   </div>
+                   <div class="form-group">
+                       <label for="assunto">Assunto:
+                       <input type="text" name="assunto" class="form-control"></label>
+                   </div>
+                   <div class="form-group">
+                       <label for="mensagem">Mensagem:
+                       <textarea name="mensagem" class="form-control" rows="3"></textarea></label>
+                   </div>
+                   <button type="submit" class="btn btn-primary">Enviar</button>
+               </form>
+           </div>
+       </div>
+
+       <!--
        <form action="confirma.php" target="_blank">
            <fieldset>
                <legend>Sua opinião é importante para nos!</legend>
@@ -13,7 +39,7 @@
                <!--<span class="help-block">Example block-level help text here.</span>
                <label class="checkbox">
                    <input type="checkbox"> Olha eu
-               </label>-->
+               </label>
                <button type="submit" class="btn btn-info">Enviar >></button>
                <!--<button type="" class="btn btn-info">Enviar >></button> -->
            </fieldset>

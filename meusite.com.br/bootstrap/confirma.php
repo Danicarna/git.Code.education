@@ -25,15 +25,28 @@
            <legend></legend><br>
            <strong>ProDermic</strong><br>
            Seus dados foram enviado com sucesso<br>
-           Agradeçemos sua colaboração<br>
-           Em breve nossa equipe entrará em contato com vocé<br>
            <br>
-           Atenciosamente<br>
+           Abaixo seguem os dados que você enviou:
          </address>
 
+       <div class="row">
+           <div class="col-xs-12">
+               <dl class="dl-horizontal">
+                   <dt>Nome: </dt>
+                   <dd><?php echo $_POST['nome']?></dd>
+                   <dt>E-mail: </dt>
+                   <dd><?php echo $_POST['e-mail']?></dd>
+                   <dt>Assunto: </dt>
+                   <dd><?php echo $_POST['assunto']?></dd>
+                   <dt>Mensagem: </dt>
+                   <dd><?php echo nl2br($_POST['mensagem'])?></dd>
+               </dl>
+           </div>
+       </div>
+
+
        <address>
-           <strong>Daniel</strong><br>
-           <a href="mailto:#">danicarna@gmail.com</a>
+           Agradeçemos sua colaboração<br>
        </address>
    </ul>
 </body>
